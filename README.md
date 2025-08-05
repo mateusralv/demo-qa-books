@@ -141,7 +141,7 @@ O que acontece de fato.
 ### Exemplo Real
 
 ```markdown
-**Título:** Falha ao exibir username na tela Profile após login
+**Título:** Falha ao adicionar um livro na coleção quando um usuario está logado. 
 
 **Descrição:**  
 Após registrar e logar com um novo usuário, não é possivel adicionar um livro na coleção
@@ -167,7 +167,7 @@ O site retorna uma tela branca
 - Versão: v1.2.3
 
 **Evidências:**  
-- Screenshot da tela Profile mostrando ausência do username.
+- Video do usuario logado tentando adicionar um livro a lista
 ```
 
 ## 🔁 5. Validação Pós-Correção (Round 2)
