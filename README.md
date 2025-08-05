@@ -9,13 +9,11 @@ Este repositório apresenta um estudo voltado para qualidade de software no site
 
 Além disso, as interações com a [API pública do site](https://demoqa.com/swagger/) são consideradas como parte integrante do processo de testes.
 
----
 
 ## 📌 Objetivo
 
 Demonstrar como um QA pode abordar o lançamento de novas funcionalidades, definindo regras, criando testes e automatizando validações para garantir qualidade e entregas confiáveis em um ambiente ágil.
 
----
 
 ## ✅ Escopo e Processo
 
@@ -103,8 +101,7 @@ Feature: Registro e gerenciamento de usuário e livros
 
 
 ## 👨‍💻 3. Validação Manual (Staging)
-T
----
+Validação da funcionalidade em ambiente de staging. Envolve testes manuais exploratórios e direcionados com base nos critérios de aceitação que foram criados anteriormente, buscando garantir que tudo funcione corretamente antes da liberação.
 
 ## 🐞 4. Abertura de Bugs
 
@@ -173,16 +170,12 @@ O site retorna uma tela branca
 - Screenshot da tela Profile mostrando ausência do username.
 ```
 
----
-
 ## 🔁 5. Validação Pós-Correção (Round 2)
-
----
+Após correções dos bugs identificados, essa etapa valida se os problemas foram resolvidos e se não houve regressões. São reexecutados os testes com falha e revisados fluxos impactados, garantindo estabilidade e qualidade da entrega antes da produção.
 
 ## 🤖 6. Automação de Testes com Cypress
 ### 6.1 Estrutura do Projeto
 
-```text
 ```text
 cypress/
 ├── downloads/                  
@@ -203,8 +196,6 @@ package-lock.json               # Lockfile das dependências (npm)
 package.json                    # Scripts e dependências do projeto
 README.md                       # Documentação do projeto
 ```
-
----
 
 ### 6.2 Setup e Execução dos Testes
 
@@ -247,4 +238,4 @@ npx cypress run
 ## 📬 Contato
 
 Para dúvidas, sugestões ou contribuições, entre em contato:  
-Criado com <3 por **Mateus Silva** 
+Criado por **Mateus Silva** 
